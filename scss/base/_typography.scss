@@ -1,0 +1,37 @@
+@import url("https://fonts.googleapis.com/css2?family=Spartan:wght@400;500;700&display=swap");
+
+/*
+	Developers use it to make it simple for them to design. The default font size is 16px, so they set the body font size to 62.5%. Therefore:
+
+	Body font-size = (62.5/100)*16 = 10px
+
+	Now as human beings, we find it very easy to use the decimal system. It's also easy to understand fractions in terms of 10, so responsive designing becomes easier!
+
+	By the way, i recommend you use font-size: 10px; explicitly in the body, as all browser default font-size might not be 16px.
+*/
+html {
+	font-size: 62.5%;
+}
+
+body {
+	font-family: "Spartan", sans-serif;
+	font-weight: 400;
+	font-size: 1.5rem;
+	line-height: 1.7;
+}
+
+.container {
+	@media (min-width: $breakpoint-tablet) {
+		max-width: 111rem;
+	}
+}
+
+section {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+}
+
+p {
+	padding: 0.1rem;
+}
