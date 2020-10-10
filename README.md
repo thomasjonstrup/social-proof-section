@@ -1,5 +1,7 @@
 # Frontend Mentor - Social proof section
 
+[![Netlify Status](https://api.netlify.com/api/v1/badges/46333a68-2080-411f-9fe6-92cf8489b01e/deploy-status)](https://app.netlify.com/sites/social-proof-section-tj/deploys)
+
 ![Design preview for the Social proof section coding challenge](./design/desktop-preview.jpg)
 
 ## Welcome! 👋
