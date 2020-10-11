@@ -22,7 +22,7 @@ main {
 	}
 
 	&__heading {
-		padding: 2rem;
+		padding-right: 4rem;
 		font-size: 2.5rem;
 		color: $very-dark-magenta;
 		text-align: center;
@@ -30,6 +30,7 @@ main {
 		@media (min-width: $breakpoint-tablet) {
 			text-align: left;
 			font-size: 4rem;
+			line-height: 4.5rem;
 		}
 	}
 }

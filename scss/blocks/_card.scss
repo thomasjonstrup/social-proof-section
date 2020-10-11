@@ -28,6 +28,14 @@
 		align-self: center;
 	}
 
+	&__qoute {
+		padding-top: 2rem;
+	}
+
+	&__header {
+		display: flex;
+	}
+
 	/* 	@media (min-width: $breakpoint-tablet) {
 		max-width: 29rem;
 	} */
@@ -45,5 +53,6 @@
 		border-radius: 50%;
 		width: 4rem;
 		height: 4rem;
+		margin-right: 2rem;
 	}
 }
